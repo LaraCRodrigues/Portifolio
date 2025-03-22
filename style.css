@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Tektur:wght@400..900&display=swap');
+
+:root {
+    cor--background: #b47aea;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Tektur", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* tags de presença  */
+body {
+    background-color: #3a393b;
+}
+
+section {
+    margin-top: 35%;
+}
+
+header {
+    text-align: center;
+    margin: 10px;
+    margin-top: 200px;
+}
+
+header>h1.header_apre {
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container>h1 {
+    color: #fff;
+}
+
+.link-nav,
+li {
+    list-style: none;
+    text-decoration: none;
+    font-size: 15px;
+    margin: 0px;
+}
+
+ul,
+li,
+a .link-nav {
+    color: #ffff;
+    display: flex;
+    margin-top: 5px;
+    gap: 10px;
+
+}
+
+h1.header_apre {
+    font-weight: 700;
+    font-size: 3rem;
+
+}
+
+@keyframes entrada {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Aplicando a animação ao título */
+h1.header_apre {
+    opacity: 0;
+    animation: entrada 1s ease-out forwards;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+a.link-nav {
+    color: #ffff;
+}
+
+nav {
+    background-color: #b47aea;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    padding: 20px 10px;
+}
+
+img.foto {
+    border-radius: 105%;
+    width: 350px;
+    height: 280px;
+    object-fit: contain;
+    /* ou 'cover' dependendo do efeito desejado */
+}
+
+.container-total {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 10px;
+    align-items: center;
+}
+
+.container_habilidades {
+    display: flex;
+    gap: 20px;
+
+}
+
+li.competencias {
+    list-style: circle;
+}
+
+p.paragrafo_apre {
+    color: #fff;
+}
+
+h3.subtitulo_apre {
+    color: #b47aea;
+
+}
+
+.container_pp>h3.subtitulo_apre {
+    margin-top: 5%;
+}
+
+button.botao_contato {
+    font-weight: 600;
+    border-radius: 10px;
+    color: #5c5a5a;
+    padding: 5px 5px 5px 5px;
+    border: 1px solid #8f8f8f;
+
+    cursor: pointer;
+}
+
+button.botao_contato:hover {
+    transition: 0.5s;
+    background-color: #b47aea;
+    border: 1px solid #fff;
+    color: #ffff;
+}
+
+.redes_sociais a {
+    color: #b47aea;
+}
+
+.redes_sociais {
+    display: flex;
+    justify-content: center;
+}
+
+/* cards de trabalhos */
+.card {
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+}
+
+.card>p {
+    color: #fff;
+}
+
+.card>h4 {
+    font-weight: 600;
+    color: #b47aea;
+}
+
+.container-card {
+    margin: 0px auto;
+    display: flex;
+    gap: 20px;
+}
+
+.container_pp {
+    margin-left: 30px;
+}
+
+.paragrafo_ver {
+    max-height: 150px;
+    overflow: hidden;
+    transition: max-height 0.5s ease-in-out;
+}
+
+a.btn_ver {
+    background-color: #b47aea;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 5px 3px;
+
+}
+.btn_ver{
+    margin-top: 5%;
+    text-align: center;
+}
+.mostrar {
+    max-height: 500px;
+    /* Expande o texto ao clicar */
+}
+
+footer {
+    background-color: #b47aea;
+}
