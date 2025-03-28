@@ -1,0 +1,32 @@
+/* Quando a tela for menor que 768px (mobile), a imagem fica acima do texto */
+@media (max-width: 768px) {
+    .container-total {
+        flex-direction: column; /* Empilha os elementos verticalmente */
+        text-align: center; /* Centraliza os textos */
+    }
+
+    .foto {
+        width: 100%; /* Imagem ocupa toda a largura */
+        max-width: 100%; 
+    }
+
+    .container_pp {
+        width: 100%;
+    }
+    h1.logo_titulo {
+        display: none;
+    }
+    .container_habilidades {
+        flex-direction: column; /* Coloca as habilidades em coluna */
+        align-items: center; /* Centraliza as habilidades */
+    }
+    .container-cards-oq_faz {
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+}
