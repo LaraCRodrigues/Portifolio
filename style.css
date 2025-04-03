@@ -176,11 +176,14 @@ button.botao_contato {
     position: relative;
     overflow: hidden;
     z-index: 1;
+    color: #fff;
     background-color: #b47aea;
     border: none;
     cursor: pointer;
 }
-
+button.botao_contato  a{
+    color: #fff;
+}
 /* Camada de fundo principal */
 button.botao_contato::after {
     content: '';
@@ -469,7 +472,8 @@ button.btn_enviar_contato {
 }
 
 button:hover {
-    background: #0056b3;
+    background: #9486e4;
+    transition: 0.5s;
 }
 
 
