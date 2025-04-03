@@ -17,13 +17,13 @@
         <div class="container">
             <h1 class="logo_titulo">Portifólio</h1>
             <ul>
-                <li><a class="link-nav" href="#">Sobre</a> </li>
-                <li> <a class="link-nav" href="#">Trabalhos</a></li>
-                <li><a class="link-nav" href="#">Contato</a></li>
+                <li><a class="link-nav" href="#sobre">Sobre</a> </li>
+                <li> <a class="link-nav" href="#trabalhos">Trabalhos</a></li>
+                <li><a class="link-nav" href="#oq_vc_faz">Informações</a></li>
             </ul>
             <div class="container_botao_contato">
                 <button class="botao_contato">
-                    <i class="bi bi-telephone-fill"></i> Contato
+                   <a href="#contato"><i class="bi bi-telephone-fill"></i> Contato</a> 
                 </button>
             </div>
     </nav>
@@ -31,14 +31,14 @@
         <h1 class="header_apre">Portifólio Profissional</h1>
         <div class="redes_sociais">
             <ul>
-                <li><a href="#"><i class="bi bi-github"></i> Github</a></li>
-                <li><a href="#"><i class="bi bi-linkedin"></i> Linkedin</a></li>
-                <li><a href="#"><i class="bi bi-instagram"></i> Instagram</a></li>
+                <li><a href="https://github.com/LaraCRodrigues"><i class="bi bi-github"></i> Github</a></li>
+                <li><a href="www.linkedin.com/in/lara-cibele-rodrigues-1b4147251"><i class="bi bi-linkedin"></i> Linkedin</a></li>
+                <li><a href="https://www.instagram.com/lara_ro06/"><i class="bi bi-instagram"></i> Instagram</a></li>
             </ul>
         </div>
 
     </header>
-    <section id="apresentacao_portfl">
+    <section id="apresentacao_portfl" id="sobre" >
         <div class="container-total">
 
             <img class="foto" src="Imagem/foto .jpg" alt="Imagem">
@@ -47,7 +47,7 @@
                     Sobre Mim
                 </h3>
                 <p class="paragrafo_apre">
-                    Lara Cibele sempre teve afinidade com tecnologia, iniciando um tecnólogo em Análise e
+                    Oi sou Lara Cibele e sempre tive afinidade com tecnologia, iniciei um curso tecnico em Análise e
                     Desenvolvimento de Sistemas no Senai de Lauro de Freitas em 2023. Embora tenha enfrentado
                     dificuldades iniciais, começou a se familiarizar com linguagens como C, Java, e SQL no backend, além
                     de frontend, área que despertou ainda mais seu interesse devido ao seu gosto por design e aspectos
@@ -62,7 +62,7 @@
                     uma vida melhor a si mesma e aos seus entes queridos.
                     Espero que tenham gostado.</p>
                 <h3 class="subtitulo_apre">
-                    Habilidades
+                    Soft Skills
                 </h3>
                 <div class="container_habilidades">
 
@@ -100,7 +100,7 @@
 
 
     </section>
-    <section id="Trabalhos" class="sessao-trabalhos">
+    <section id="trabalhos" class="sessao-trabalhos">
         <h2 class="titulo-projetos">Trabalhos</h2>
         <div class="container-skills">
             <div class=" separar_skills">
@@ -126,12 +126,12 @@
                     </h4>
 
                     <p id="texto" class="paragrafo_ver">About
-                        E-commerce por indicação durante minha trajetória no Senai, trata-se de um sistema de
+                     Trata-se de um sistema de
                         gerenciamento de estoque embutido com loja online para vendas dos produtos do cliente</p>
                     </p>
 
                     <div class="btn_verc">
-                        <a id="btn" class="btn_ver" href="#">Ver mais <i class="bi bi-send"></i>
+                        <a id="" class="btn_ver" href="https://github.com/LaraCRodrigues/E-commerce-Loja.git">Ver mais <i class="bi bi-send"></i>
                         </a>
                     </div>
 
@@ -160,14 +160,11 @@
                         Projeto de Java - cadastro de produtos usando SQL
                     </h4>
 
-                    <p id="texto" class="paragrafo_ver"> Lorem Ipsum é simplesmente uma simulação de texto da indústria
-                        tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor
-                        desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos.
-                        Lorem Ipsum sobreviveu não só a cinco séculos</p>
+                    <p id="texto" class="paragrafo_ver">Projeto desenvolvido com as tecnologias Java e SQL, o sistema envolve gerenciamento de produtos usando banco de dados.</p>
                     </p>
 
                     <div class="btn_verc">
-                        <a id="btn" class="btn_ver" href="#">Ver mais <i class="bi bi-send"></i>
+                        <a id="btn" class="btn_ver" href="https://github.com/LaraCRodrigues/Gerenciamento-de-Produtos---Java-e-SQL.git">Ver mais <i class="bi bi-send"></i>
                         </a>
                     </div>
 
@@ -177,14 +174,11 @@
                         Projeto Calculadora em POO
                     </h4>
 
-                    <p id="texto" class="paragrafo_ver"> Lorem Ipsum é simplesmente uma simulação de texto da indústria
-                        tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor
-                        desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos.
-                        Lorem Ipsum sobreviveu não só a cinco séculos</p>
+                    <p id="texto" class="paragrafo_ver"> Calculadora usando Java e conceitos de POO </p>
                     </p>
 
                     <div class="btn_verc">
-                        <a id="btn" class="btn_ver" href="#">Ver mais <i class="bi bi-send"></i>
+                        <a id="btn" class="btn_ver" href="https://github.com/LaraCRodrigues/Calculadora-POO.git">Ver mais <i class="bi bi-send"></i>
                         </a>
                     </div>
                 </div>
@@ -193,11 +187,28 @@
         </div>
     </section>
     <section id="Linguagens de_programacao">
-
-
+        
+        
     </section>
-
-    <footer class="footer-portifolio">
+    <section id="contato">
+        <h2>Entre em Contato Comigo</h2>
+        <form id="formContato">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+    
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+    
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+    
+            <button type="submit" class="btn_enviar_contato">Enviar</button>
+            <p id="resposta"></p>
+        </form>
+    </section>
+    
+    
+        <footer class="footer-portifolio">
         <div class="footer-container">
             <div class="footer-info">
                 <h3>Contato</h3>
@@ -207,9 +218,9 @@
             <div class="footer-social">
                 <h3>Redes Sociais</h3>
                 <ul>
-                    <li><a href="https://github.com/laracibele" target="_blank"><i class="bi bi-github"></i> GitHub</a></li>
-                    <li><a href="https://www.linkedin.com/in/laracibele" target="_blank"><i class="bi bi-linkedin"></i> LinkedIn</a></li>
-                    <li><a href="https://www.instagram.com/laracibele" target="_blank"><i class="bi bi-instagram"></i> Instagram</a></li>
+                    <li><a href="https://github.com/LaraCRodrigues"><i class="bi bi-github"></i> Github</a></li>
+                    <li><a href="www.linkedin.com/in/lara-cibele-rodrigues-1b4147251"><i class="bi bi-linkedin"></i> Linkedin</a></li>
+                    <li><a href="https://www.instagram.com/lara_ro06/"><i class="bi bi-instagram"></i> Instagram</a></li>
                 </ul>
             </div>
         </div>
